@@ -1,7 +1,7 @@
 import React from 'react'
 import './cart.scss'
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-const Cart = () => {
+const Cart = ({item}) => {
 
     const data = [
       {
